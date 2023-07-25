@@ -1,5 +1,4 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first
-import 'dart:convert';
+
 
 class Todo {
 
@@ -28,7 +27,7 @@ class Todo {
 
   @override
   String toString() {
-    return 'Todo(userId: $userId\n, id: $id\n, title: $title\n, completed: $completed\n)';
+    return 'Todo(\n userId: $userId\n id: $id\n title: $title\n completed: $completed\n)';
   }
 
 }
