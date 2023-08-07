@@ -9,6 +9,9 @@ Future<void> main() async {
         print(data.length);
       },
     );
+    await for (var data in stream) {
+      print(data.length);
+    }
   } on Exception catch (error) {
     print(error);
   } finally {
