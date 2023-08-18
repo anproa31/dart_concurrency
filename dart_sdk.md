@@ -1,0 +1,10 @@
+-- analyze
+--compile
+--create
+--devtools
+--doc
+--fix
+--format
+--migrate
+--pub
+--run
