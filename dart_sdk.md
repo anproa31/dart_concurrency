@@ -1,10 +1,11 @@
--- analyze
---compile
---create
---devtools
---doc
+-- analyze: Your IDE ues thí tool to tell you when you've made a mistake in your code. The sooner you know, the sooner you can fix it
+--compile: 
+--create: This is for creating new Dart projects, which you'll do yourself in just a minute.
+--devtools: These are a set of tools to help you with tasks like debugging or profiling the CPU and memory uasge of running apps
+--doc: If ur code has documentation comments, which you'll learn about later, this tool can generate HTML files that contain the documentation
 --fix
 --format
---migrate
+--migrate: This tool helps migrate old projects to use null safety.
 --pub
 --run
+--test: Dart full supports unit testing, and this tool will help you get that done.
